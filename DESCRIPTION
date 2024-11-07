@@ -1,0 +1,18 @@
+Package: SampleRiskRatioMultiENG
+Title: Sample Size Calculation for Risk Ratio Studies
+Version: 0.1.0
+Authors@R: 
+    person("Victor J.", "Vera-Ponce", email = "victor_jvp@hotmail.com",
+           role = c("aut", "cre"))
+Description: This package provides tools for calculating sample size in cohort studies
+    using relative risk as a measure of association, considering multivariable
+    analysis and logistical aspects of the study. Includes functions for sample
+    size calculation considering correlation between covariables, statistical
+    power evaluation, and study logistics planning.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stats
+LazyData: true
